@@ -1,10 +1,40 @@
 # 👨‍💻 Vitor de Lima Domingues
-**`Estudante de Engenharia de Software na FIAP`**
 
-## Sobre mim
-Estudante de Engenharia de Software na FIAP, com experiência em desenvolvimento Front-end e Back-end de sites e aplicações.
-Gosto de atuar de forma versátil, transitando entre as duas áreas, sempre buscando construir soluções completas e bem estruturadas.
-Atualmente estou focado em fortalecer minha base técnica por meio de cursos, projetos práticos e estudos contínuos.
+
+```java
+public static void main(String[] args) {
+    Developer vitor = new Developer();
+
+    vitor.degree = "Software Engineer Student @ FIAP";
+    vitor.location = "São Paulo, Brazil.";
+
+    vitor.focus = List.of(
+        "Back-end Development",
+        "Front-end Development",
+        "Full-Stack Development",
+    )
+
+    vitor.backend = List.of(
+        "Java",
+        "Spring Boot",
+        "Python"
+    )
+
+    vitor.frontend = List.of(
+        "React",
+        "TypeScript",
+        "TailwindCSS"
+    )
+
+    vitor.database = List.of(
+        "MySQl",
+        "PostgreSQL",
+        "MongoDB"
+    )
+
+    vitor.status = "Open to Software Development Internship opportunities";
+}
+```
 
 
 ## Tecnologias 
@@ -31,29 +61,10 @@ Atualmente estou focado em fortalecer minha base técnica por meio de cursos, pr
     align="left"
     style="padding-right: 10px"
     width="40px"
-    alt="JavaScript"
-    title="JavaScript"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+    alt="TypeScript"
+    title="TypeScript"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
 />          
-
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="40px"
-    alt="HTML"
-    title="HTML"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>          
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="40px"
-    alt="CSS"
-    title="CSS"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-/>
 
 <img
     align="left"
@@ -87,9 +98,9 @@ Atualmente estou focado em fortalecer minha base técnica por meio de cursos, pr
     align="left"
     style="padding-right: 10px"
     width="40px"
-    alt="C#"
-    title="C#"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
+    alt="MySQL"
+    title="MySQL"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
 />
           
 
