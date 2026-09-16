@@ -14,21 +14,25 @@ public static void main(String[] args) {
         "Full-Stack Development",
     )
 
-    vitor.backend = List.of(
+    vitor.languages = List.of(
         "Java",
-        "Spring Boot",
+        "TypeScript",
         "Python"
+    )
+
+    vitor.backend = List.of(
+        "Spring Boot",
+        "Node.js"
     )
 
     vitor.frontend = List.of(
         "React",
-        "TypeScript",
         "TailwindCSS"
     )
 
     vitor.database = List.of(
-        "MySQl",
         "PostgreSQL",
+        "MySQl",
         "MongoDB"
     )
 
