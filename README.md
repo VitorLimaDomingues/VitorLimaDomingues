@@ -1,170 +1,120 @@
-# 👨‍💻 Vitor de Lima Domingues 
+<div align="center">
+
+# Olá, eu sou o Vitor! 👋
+
+### Estudante de Engenharia de Software · Desenvolvedor Full Stack
+
+Construo aplicações web com foco em código limpo, boas experiências e soluções que geram valor.
+
+[![Portfólio](https://img.shields.io/badge/Conheça_meu_portfólio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-vitor-lima-domingues.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/Vamos_nos_conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-lima-domingues/)
+
+</div>
+
+---
+
+## Sobre mim
 
 ```java
-public static void main(String[] args) {
-    String portfolio = "https://portfolio-vitor-lima-domingues.vercel.app/";
+import java.util.List;
 
-    Developer aboutMe = new Developer();
+public class VitorProfile {
+    public static void main(String[] args) {
+        Developer aboutMe = new Developer(
+            "Software Engineering student @ FIAP",
+            "São Paulo, Brazil",
+            List.of("Back-end", "Front-end", "Full Stack"),
+            List.of("Java", "TypeScript", "Python"),
+            List.of("Spring Boot", "Node.js"),
+            List.of("React", "Tailwind CSS"),
+            List.of("PostgreSQL", "MySQL", "MongoDB"),
+            "Open to Software Development Internship opportunities"
+        );
 
-    aboutMe.degree = "Software Engineer Student @ FIAP";
-    aboutMe.location = "São Paulo, Brazil.";
+        System.out.println(aboutMe);
+    }
 
-    aboutMe.focus = List.of(
-        "Back-end Development",
-        "Front-end Development",
-        "Full-Stack Development",
-    )
-
-    aboutMe.languages = List.of(
-        "Java",
-        "TypeScript",
-        "Python"
-    )
-
-    aboutMe.backend = List.of(
-        "Spring Boot",
-        "Node.js"
-    )
-
-    aboutMe.frontend = List.of(
-        "React",
-        "TailwindCSS"
-    )
-
-    aboutMe.database = List.of(
-        "PostgreSQL",
-        "MySQl",
-        "MongoDB"
-    )
-
-    aboutMe.status = "Open to Software Development Internship opportunities";
+    record Developer(
+        String degree,
+        String location,
+        List<String> focus,
+        List<String> languages,
+        List<String> backend,
+        List<String> frontend,
+        List<String> databases,
+        String status
+    ) {}
 }
 ```
 
+## Tecnologias e ferramentas
 
-## Tecnologias 
+<p align="center">
+  <img width="44" height="44" alt="Java" title="Java" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="Spring Boot" title="Spring Boot" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="Python" title="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="TypeScript" title="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="React" title="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="Node.js" title="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="PostgreSQL" title="PostgreSQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="MySQL" title="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+  &nbsp;
+  <img width="44" height="44" alt="MongoDB" title="MongoDB" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+</p>
 
-<img 
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="Java"
-    title="Java"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" 
-/>
+<p align="center">
+  Java · Spring Boot · Python · TypeScript · React · Tailwind CSS · Node.js · PostgreSQL · MySQL · MongoDB
+</p>
 
-<img 
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="Spring Boot"
-    title="Spring Boot"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"
-/>
+---
 
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="Python"
-    title="Python"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-/>
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="TypeScript"
-    title="TypeScript"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-/>          
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="React.js"
-    title="React.js"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-/>
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="TailwindCSS"
-    title="TailwindCSS"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
-/>
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="Node.js"
-    title="Node.js"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-/>
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="PostgreSQL"
-    title="PostgreSQL"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
-/>
-
-
-<img 
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="MySQL"
-    title="MySQL"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
-/>
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="50px"
-    alt="MongoDB"
-    title="MongoDB"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
-/>
-          
-
-<br>
-<br>
-<br>
-
-## Projetos principais
+## Projetos em destaque
 
 ### 🏥 CRM Hospitalar — Hospital São Rafael
 
-Sistema de CRM desenvolvido para centralizar o gerenciamento de leads e apoiar
-o acompanhamento do fluxo de atendimento e relacionamento com pacientes.
+Sistema de CRM que centraliza o gerenciamento de leads e facilita o acompanhamento do atendimento e do relacionamento com pacientes.
 
-`React.js` `Node.js` `Tailwind CSS` `Java` `Spring Boot` `REST API` `SQL` `PostgreSQL`
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-111827?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-374151?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-[Repositório](https://github.com/Stack-Society/CRM-Hospital-Sao-Rafael)
+➡️ [Ver código no GitHub](https://github.com/Stack-Society/CRM-Hospital-Sao-Rafael)
 
+### 🥗 NutriSabará — Hospital Infantil Sabará
 
-### 🏥 NutriSabará Plataforma Web — Hospital Sabará
+Plataforma web criada para apoiar a personalização da experiência alimentar dos pacientes do Hospital Infantil Sabará.
 
-Aplicação web desenvolvida para apoiar a personalização da experiência
-alimentar de pacientes do Hospital Infantil Sabará.
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-111827?style=flat-square)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
-`React.js` `Node.js` `Tailwind CSS` `Python` `REST API` `Azure`
+➡️ [Ver código no GitHub](https://github.com/Stack-Society/WebSite-Hospital-Sabara)
 
-[Repositório](https://github.com/Stack-Society/WebSite-Hospital-Sabara)
+---
 
-## 📫 Conecte-se comigo
-<a href="https://www.linkedin.com/in/vitor-lima-domingues/">
-<img 
-    width="40px"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
-/>
-</a>    
+<div align="center">
+
+## Vamos conversar?
+
+Estou aberto a oportunidades de estágio em desenvolvimento de software e a novos projetos colaborativos.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vitor_de_Lima_Domingues-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-lima-domingues/)
+
+</div>
