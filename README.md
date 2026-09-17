@@ -1,70 +1,79 @@
-# 👨‍💻 Vitor de Lima Domingues
+# 👨‍💻 Vitor de Lima Domingues 
 
 
 ```java
 public static void main(String[] args) {
-    Developer vitor = new Developer();
+    Developer aboutMe = new Developer();
 
-    vitor.degree = "Software Engineer Student @ FIAP";
-    vitor.location = "São Paulo, Brazil.";
+    aboutMe.degree = "Software Engineer Student @ FIAP";
+    aboutMe.location = "São Paulo, Brazil.";
 
-    vitor.focus = List.of(
+    aboutMe.focus = List.of(
         "Back-end Development",
         "Front-end Development",
         "Full-Stack Development",
     )
 
-    vitor.languages = List.of(
+    aboutMe.languages = List.of(
         "Java",
         "TypeScript",
         "Python"
     )
 
-    vitor.backend = List.of(
+    aboutMe.backend = List.of(
         "Spring Boot",
         "Node.js"
     )
 
-    vitor.frontend = List.of(
+    aboutMe.frontend = List.of(
         "React",
         "TailwindCSS"
     )
 
-    vitor.database = List.of(
+    aboutMe.database = List.of(
         "PostgreSQL",
         "MySQl",
         "MongoDB"
     )
 
-    vitor.status = "Open to Software Development Internship opportunities";
+    aboutMe.status = "Open to Software Development Internship opportunities";
 }
 ```
 
 
 ## Tecnologias 
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="40px"
-    alt="Python"
-    title="Python"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-/>
 
 <img 
     align="left"
     style="padding-right: 10px"
-    width="40px"
+    width="50px"
     alt="Java"
     title="Java"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" 
 />
 
+<img 
+    align="left"
+    style="padding-right: 10px"
+    width="50px"
+    alt="Spring Boot"
+    title="Spring Boot"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"
+/>
 
 <img
     align="left"
     style="padding-right: 10px"
-    width="40px"
+    width="50px"
+    alt="Python"
+    title="Python"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+/>
+
+<img
+    align="left"
+    style="padding-right: 10px"
+    width="50px"
     alt="TypeScript"
     title="TypeScript"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
@@ -73,38 +82,56 @@ public static void main(String[] args) {
 <img
     align="left"
     style="padding-right: 10px"
-    width="40px"
-    alt="TailWindCSS"
-    title="TailWindCSS"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
-/>
-
-<img
-    align="left"
-    style="padding-right: 10px"
-    width="40px"
-    alt="React"
-    title="React"
+    width="50px"
+    alt="React.js"
+    title="React.js"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
 />
 
 <img
     align="left"
     style="padding-right: 10px"
-    width="40px"
-    alt="Node"
-    title="Node"
+    width="50px"
+    alt="TailwindCSS"
+    title="TailwindCSS"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
+/>
+
+<img
+    align="left"
+    style="padding-right: 10px"
+    width="50px"
+    alt="Node.js"
+    title="Node.js"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+/>
+
+<img
+    align="left"
+    style="padding-right: 10px"
+    width="50px"
+    alt="PostgreSQL"
+    title="PostgreSQL"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
 />
 
 
 <img 
     align="left"
     style="padding-right: 10px"
-    width="40px"
+    width="50px"
     alt="MySQL"
     title="MySQL"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
+/>
+
+<img
+    align="left"
+    style="padding-right: 10px"
+    width="50px"
+    alt="MongoDB"
+    title="MongoDB"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
 />
           
 
