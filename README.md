@@ -1,8 +1,9 @@
 # 👨‍💻 Vitor de Lima Domingues 
 
-
 ```java
 public static void main(String[] args) {
+    String portfolio = "https://portfolio-vitor-lima-domingues.vercel.app/";
+
     Developer aboutMe = new Developer();
 
     aboutMe.degree = "Software Engineer Student @ FIAP";
@@ -137,13 +138,28 @@ public static void main(String[] args) {
 
 <br>
 <br>
+<br>
 
-## Projetos
+## Projetos principais
 
-| 🎁 Projeto | 📝 Descrição | ✨ Tecnologias | ⭐ Repositório |
-|------------|-------------|----------------|----------------|
-| [**Stack-Society - Avaliador de refeições**](https://github.com/Stack-Society/Sprint-4-Edge-Computing) | Um avaliador de refeições para crianças hospitalizadas | `Jupyter Notebook` `Python` `C++` | [![Stars](https://github.com/Stack-Society/Sprint-4-Edge-Computing)](https://github.com/Stack-Society/Sprint-4-Edge-Computing) |
-| [**Stack-Society - Site hospital Sabará**](https://github.com/Stack-Society/SPRINT4_WebDev) | Site desenvolvido para o hospital Sabará | `React.js` `Node.js` `TailWindCSS` `VM` | [![Stars](https://github.com/Stack-Society/SPRINT4_WebDev)](https://github.com/Stack-Society/SPRINT4_WebDev) |
+### 🏥 CRM Hospitalar — Hospital São Rafael
+
+Sistema de CRM desenvolvido para centralizar o gerenciamento de leads e apoiar
+o acompanhamento do fluxo de atendimento e relacionamento com pacientes.
+
+`React.js` `Node.js` `Tailwind CSS` `Java` `Spring Boot` `REST API` `SQL` `PostgreSQL`
+
+[Repositório](https://github.com/Stack-Society/CRM-Hospital-Sao-Rafael)
+
+
+### 🏥 NutriSabará Plataforma Web — Hospital Sabará
+
+Aplicação web desenvolvida para apoiar a personalização da experiência
+alimentar de pacientes do Hospital Infantil Sabará.
+
+`React.js` `Node.js` `Tailwind CSS` `Python` `REST API` `Azure`
+
+[Repositório](https://github.com/Stack-Society/WebSite-Hospital-Sabara)
 
 ## 📫 Conecte-se comigo
 <a href="https://www.linkedin.com/in/vitor-lima-domingues/">
